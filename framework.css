@@ -1,0 +1,227 @@
+/* mobile view */
+@media screen and (max-width:767px) {
+    .col-xs-1{
+        width: calc(100% / 12);
+    }
+    .col-xs-2{
+        width: calc((100% / 12) *2);
+    }
+    .col-xs-3{
+        width: calc((100% / 12) *3);
+    }
+    .col-xs-4{
+        width: calc((100% / 12) *4);
+    }
+    .col-xs-5{
+        width: calc((100% / 12) *5);
+    }
+    .col-xs-6{
+        width: calc((100% / 12) *6);
+    }
+    .col-xs-7{
+        width: calc((100% / 12) *7);
+    }
+    .col-xs-8{
+        width: calc((100% / 12) *8);
+    }
+    .col-xs-9{
+        width: calc((100% / 12) *9);
+    }
+    .col-xs-10{
+        width: calc((100% / 12) *10);
+    }
+    .col-xs-11{
+        width: calc((100% / 12) *11);
+    }
+    .col-xs-12{
+        width: calc((100% / 12) *12);
+    }
+    [class*="col-"] {
+        float:left;
+        position:relative;
+        
+        /* height:200px;
+        padding:5px;
+         */
+    }
+
+    #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+   
+    
+    
+    }
+    #lezioni .row{
+        background-color: rgba(247, 147, 162, 0.274);
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: left;
+      width: 100%;
+      
+    }
+    #why .row{
+        background-color: rgba(255, 182, 193, 0.274);
+    }
+
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .row{
+      width:100%;
+      margin-top: 0;
+        
+    }
+    #steps .row>.central,
+    #steps .row>.right {
+        margin-top: 10px;
+    }
+    img{
+        max-width: 70%;
+        
+    }
+
+  
+    
+  
+}
+/* tablet view */
+@media screen and (min-width:768px) and (max-width:991px) {
+    .col-md-1{
+        width: calc(100% / 12);
+    }
+    .col-md-2{
+        width: calc((100% / 12) *2);
+    }
+    .col-xs-3{
+        width: calc((100% / 12) *3);
+    }
+    .col-md-4{
+        width: calc((100% / 12) *4);
+    }
+    .col-md-5{
+        width: calc((100% / 12) *5);
+    }
+    .col-md-6{
+        width: calc((100% / 12) *6);
+    }
+    .col-md-7{
+        width: calc((100% / 12) *7);
+    }
+    .col-md-8{
+        width: calc((100% / 12) *8);
+    }
+    .col-md-9{
+        width: calc((100% / 12) *9);
+    }
+    .col-md-10{
+        width: calc((100% / 12) *10);
+    }
+    .col-md-11{
+        width: calc((100% / 12) *11);
+    }
+    .col-md-12{
+        width: calc((100% / 12) *12);
+    }
+    [class*="col-"] {
+        float:left;
+        position:relative;
+    }
+        
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+      
+      
+      }
+     
+
+    
+      #lezioni .row{
+         background-color: rgba(255, 182, 193, 0.274);
+      }
+      #steps .row>.left,
+      #steps .row>.central{
+        float: left;
+        width: 50%;
+        
+      }
+    
+      #steps .row>.right {
+        float: none;
+        width: 100%;
+    }
+      #why .row{
+          background-color: rgba(255, 182, 193, 0.274);
+      }
+  
+  
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .row{
+          width:100%;
+          margin-top: 0;
+          
+      }
+      #steps .row>.central,
+      #steps .row>.right {
+          margin-top: 10px;
+      }
+      img{
+          max-width: 70%;
+          
+      }
+}
+/* desktop view */
+@media screen and (min-width:991px) {
+    .col-lg-1{
+        width: calc(100% / 12);
+    }
+    .col-lg-2{
+        width: calc((100% / 12) *2);
+    }
+    .col-lg-3{
+        width: calc((100% / 12) *3);
+    }
+    .col-lg-4{
+        width: calc((100% / 12) *4);
+    }
+    .col-lg-5{
+        width: calc((100% / 12) *5);
+    }
+    .col-lg-6{
+        width: calc((100% / 12) *6);
+    }
+    .col-lg-7{
+        width: calc((100% / 12) *7);
+    }
+    .col-lg-8{
+        width: calc((100% / 12) *8);
+    }
+    .col-lg-9{
+        width: calc((100% / 12) *9);
+    }
+    .col-lg-10{
+        width: calc((100% / 12) *10);
+    }
+    .col-lg-11{
+        width: calc((100% / 12) *11);
+    }
+    .col-lg-12{
+        width: calc((100% / 12) *12);
+    }
+    [class*="col-"] {
+        float:left;
+        position:relative;
+    }
+}
